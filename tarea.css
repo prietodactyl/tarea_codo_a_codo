@@ -1,0 +1,21 @@
+.cuadro {
+    display: grid;
+    grid-template-rows: 400px 400px 400px 400px;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  
+  .caja1 {
+    background: red;
+    text-align: left;
+    color: yellow;
+    font-size: 66px;
+  }
+  
+  .caja2 {
+    background: black;
+    text-align: left;
+    color: white;
+    font-size: 66px;
+  }
